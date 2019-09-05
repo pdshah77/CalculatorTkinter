@@ -68,6 +68,7 @@ class Calculator:
 					pass # Need to Code for Square Root of Equation
 				else:
 					self.equation = re.sub(u"\u00F7".encode('utf-8'),"/",self.equation)
+					self.equation = self.equation.replace('^','**')
 					answer = str(eval(self.equation))
 				self.clear_screen()
 				self.insert_screen(answer,newline=True)	
