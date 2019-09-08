@@ -3,7 +3,7 @@
 	
 '''
 # -*- coding:utf-8 -*-
-from Tkinter import *
+from tkinter import *
 import math
 import re
 
@@ -64,12 +64,11 @@ class Calculator:
 	def click(self,text,write):
 		if write == None:
 			if text == "=" and self.equation:
-				if u"\u221A".encode('utf-8') in self.equation:
-					pass # Need to Code for Square Root of Equation
-				else:
-					self.equation = re.sub(u"\u00F7".encode('utf-8'),"/",self.equation)
-					self.equation = self.equation.replace('^','**')
-					answer = str(eval(self.equation))
+				self.equation = self.equation.replace(str('\u221A'.encode('utf-8')),"**0.5")
+				self.equation = self.equation.replace(str('\u00F7'.encode('utf-8')),'/')
+				self.equation = self.equation.replace('^','**')
+				self.equation = self.equation.replace('%','/100') 
+				answer = str(eval(self.equation))
 				self.clear_screen()
 				self.insert_screen(answer,newline=True)	
 			elif text == u"\u232B":
