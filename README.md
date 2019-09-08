@@ -10,7 +10,10 @@ Tkinter: InBuild tkinter with Python
 Current Program supports all basic functionality with Few Constrains:
 										   
 1. Square Root and Percentage can be calculated with below format only:
-![Square Root](https://github.com/pdshah77/CalculatorTkinter/blob/master/img/squareRoot.PNG)        ![Percentage Image] (https://github.com/pdshah77/CalculatorTkinter/blob/master/img/squareRoot.PNG)
+
+![Square Root](https://github.com/pdshah77/CalculatorTkinter/blob/master/img/squareRoot.PNG)        
+
+![Percentage Image](https://github.com/pdshah77/CalculatorTkinter/blob/master/img/squareRoot.PNG)
 
 2. You will need to Press Backstash Button after every operation to remove the result otherwise it will directly append the solution
 
