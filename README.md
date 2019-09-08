@@ -13,7 +13,7 @@ Current Program supports all basic functionality with Few Constrains:
 
 ![Square Root](https://github.com/pdshah77/CalculatorTkinter/blob/master/img/squareRoot.PNG)        
 
-![Percentage Image](https://github.com/pdshah77/CalculatorTkinter/blob/master/img/squareRoot.PNG)
+![Percentage Image](https://github.com/pdshah77/CalculatorTkinter/blob/master/img/Percentage.PNG)
 
 2. You will need to Press Backstash Button after every operation to remove the result otherwise it will directly append the solution
 
